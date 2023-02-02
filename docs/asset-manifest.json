@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/myProject/Source/simplicareyyc_home/build/static/css/main.c2cab247.css",
-    "main.js": "/myProject/Source/simplicareyyc_home/build/static/js/main.1fb9a43d.js",
-    "index.html": "/myProject/Source/simplicareyyc_home/build/index.html",
-    "main.c2cab247.css.map": "/myProject/Source/simplicareyyc_home/build/static/css/main.c2cab247.css.map",
-    "main.1fb9a43d.js.map": "/myProject/Source/simplicareyyc_home/build/static/js/main.1fb9a43d.js.map"
+    "main.css": "/simplicareyyc_home/static/css/main.c2cab247.css",
+    "main.js": "/simplicareyyc_home/static/js/main.1fb9a43d.js",
+    "index.html": "/simplicareyyc_home/index.html",
+    "main.c2cab247.css.map": "/simplicareyyc_home/static/css/main.c2cab247.css.map",
+    "main.1fb9a43d.js.map": "/simplicareyyc_home/static/js/main.1fb9a43d.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
