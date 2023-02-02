@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.c2cab247.css",
-    "main.js": "./static/js/main.59f8221a.js",
-    "index.html": "./index.html",
-    "main.c2cab247.css.map": "./static/css/main.c2cab247.css.map",
-    "main.59f8221a.js.map": "./static/js/main.59f8221a.js.map"
+    "main.css": "/shashako/simplicareyyc_home/static/css/main.c2cab247.css",
+    "main.js": "/shashako/simplicareyyc_home/static/js/main.592d17a1.js",
+    "index.html": "/shashako/simplicareyyc_home/index.html",
+    "main.c2cab247.css.map": "/shashako/simplicareyyc_home/static/css/main.c2cab247.css.map",
+    "main.592d17a1.js.map": "/shashako/simplicareyyc_home/static/js/main.592d17a1.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.59f8221a.js"
+    "static/js/main.592d17a1.js"
   ]
 }
