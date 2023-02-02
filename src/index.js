@@ -5,12 +5,16 @@ import {Home} from "./containers/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = createRoot(document.getElementById('root'));
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
-
-root.render(
-<BrowserRouter>
-  <Routes>  
-      <Route path="./" element={<Home />} />
-      <Route path="./home" element={<Home />} />
-  </Routes>
-</BrowserRouter>);
+root.render(<App></App>);
