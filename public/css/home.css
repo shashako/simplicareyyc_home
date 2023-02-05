@@ -1,0 +1,9 @@
+.home-heading {
+    width: 240;
+    height: 240;
+    padding: 20px;
+    transition: padding 0.5s;
+}
+.home-heading:hover {
+    padding: 0px;
+}
