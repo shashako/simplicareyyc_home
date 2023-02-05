@@ -1,6 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 import { createRoot } from 'react-dom/client';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import {Home} from "./containers/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Contact } from './containers/Contact';
@@ -12,15 +12,13 @@ const header = createRoot(document.getElementById('root-header'));
 const footer = createRoot(document.getElementById('root-footer'));
 export default function App() {
   return (
-    <React.StrictMode>
-    <HashRouter>
-     <Routes path="/simplicareyyc_home">
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/home" element={<Home />}></Route>
-        <Route path="/contact-us" element={<Contact />}></Route>       
-      </Routes>
-      </HashRouter>
-   </React.StrictMode>
+      <BrowserRouter basename='/simplicareyyc_home'>
+      <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/home" element={<Home />}></Route>
+          <Route path="/contact-us" element={<Contact />}></Route>       
+        </Routes>
+      </BrowserRouter>
   );
 }
 header.render(<Header/>);
