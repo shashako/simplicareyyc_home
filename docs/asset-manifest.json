@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/simplicareyyc_home/static/css/main.c2cab247.css",
-    "main.js": "/simplicareyyc_home/static/js/main.60218805.js",
+    "main.js": "/simplicareyyc_home/static/js/main.90904a2a.js",
     "index.html": "/simplicareyyc_home/index.html",
     "main.c2cab247.css.map": "/simplicareyyc_home/static/css/main.c2cab247.css.map",
-    "main.60218805.js.map": "/simplicareyyc_home/static/js/main.60218805.js.map"
+    "main.90904a2a.js.map": "/simplicareyyc_home/static/js/main.90904a2a.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.60218805.js"
+    "static/js/main.90904a2a.js"
   ]
 }
