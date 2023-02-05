@@ -1,8 +1,8 @@
 {
-  "name": "fe_test",
-  "homepage": "https://shashako.github.io/simplicareyyc_home",
+  "name": "simplicareyyc_home",
+  "homepage": "https://shashako.github.io/simplicareyyc_home/#",
   "version": "1.0.0",
-  "description": "FE React JS",
+  "description": "simplicareyyc home",
   "main": "index.js",
   "scripts": {
     "start": "set PUBLIC_URL=/&&react-scripts start",

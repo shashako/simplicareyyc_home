@@ -12,13 +12,13 @@ const header = createRoot(document.getElementById('root-header'));
 const footer = createRoot(document.getElementById('root-footer'));
 export default function App() {
   return (
-      <BrowserRouter basename='/simplicareyyc_home'>
-      <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/home" element={<Home />}></Route>
-          <Route path="/contact-us" element={<Contact />}></Route>       
-        </Routes>
-      </BrowserRouter>
+      <HashRouter>
+        <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/home" element={<Home />}></Route>
+            <Route path="/contact-us" element={<Contact />}></Route>       
+          </Routes>
+      </HashRouter>
   );
 }
 header.render(<Header/>);
