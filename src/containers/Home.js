@@ -1,13 +1,12 @@
 import React from 'react';
-import { Form, FormControl, Button, Container, Navbar, Nav, Lable, Carousel, Row, Col } from 'react-bootstrap';
-import { Header } from './Header';
+import {  Button, Container, Carousel, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Footer } from './Footer';
 
 export class  Home extends React.Component { 
     render() {
         return (
-        <><Header /><Carousel>
+        <><Carousel>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
