@@ -14,7 +14,7 @@ export default function App() {
   return (
     <React.StrictMode>
     <HashRouter>
-      <Routes path="/simplicareyyc_home">
+      <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/contact-us" element={<Contact />}></Route>       

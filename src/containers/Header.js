@@ -15,11 +15,11 @@ export class  Header extends React.Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/home" className='mx-3'><a className="menu-header">HOME</a></Nav.Link>
-            <Nav.Link href="/" className='mx-3'><a className="menu-header">CUSTOM ORTHOTICS</a></Nav.Link>
-            <Nav.Link href="/" className='mx-3'><a className="menu-header">COMPRESSION STOCKINGS</a></Nav.Link>
-            <Nav.Link href="/" className='mx-3'><a className="menu-header">SYMPTOMS</a></Nav.Link>
-            <Nav.Link href="/contact-us" className=' mx-3'><a className="menu-header">CONTACT</a></Nav.Link>            
+            <Nav.Link href="./home" className='mx-3'><a className="menu-header">HOME</a></Nav.Link>
+            <Nav.Link href="./" className='mx-3'><a className="menu-header">CUSTOM ORTHOTICS</a></Nav.Link>
+            <Nav.Link href="./" className='mx-3'><a className="menu-header">COMPRESSION STOCKINGS</a></Nav.Link>
+            <Nav.Link href="./" className='mx-3'><a className="menu-header">SYMPTOMS</a></Nav.Link>
+            <Nav.Link href="./contact-us" className=' mx-3'><a className="menu-header">CONTACT</a></Nav.Link>            
           </Nav>
         </Navbar.Collapse>
       </Container>
