@@ -13,7 +13,7 @@ export class  Contact extends React.Component {
         return (
         <>
         <Container className="">
-            <Row className="fs-3"> Please make your appointment request at 403-455-9906.<br/> </Row>  
+            <Row className="fs-3"> Please make your appointment request at 403-455-xxxx.<br/> </Row>  
             <Row> <br/> </Row>         
             <Row className="fs-3"> Find us at:<br/>Adress <br/> City  </Row>  
             <Row>
