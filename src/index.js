@@ -14,9 +14,9 @@ export default function App() {
   return (
       <HashRouter>
         <Routes>
-          <Route path="/simplicareyyc_home/" element={<Home />}></Route>
-          <Route path="/simplicareyyc_home/home" element={<Home />}></Route>
-          <Route path="/simplicareyyc_home/contact-us" element={<Contact />}></Route>       
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/home" element={<Home />}></Route>
+          <Route path="/contact-us" element={<Contact />}></Route>       
         </Routes>
       </HashRouter>
   );
