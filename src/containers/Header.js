@@ -4,7 +4,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 export class  Header extends React.Component { 
     render() {
         return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="">
+    <Navbar bg="dark" variant="dark" expand="lg" className="" expanded>
       <Container className="">        
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <Nav className="">
