@@ -7,20 +7,19 @@ import { Contact } from './containers/Contact';
 import { Header } from './containers/Header';
 import { Footer } from './containers/Footer';
 import React from 'react';
+import { Rentail } from './containers/Rentail';
 const root = createRoot(document.getElementById('root'));
-const header = createRoot(document.getElementById('root-header'));
-const footer = createRoot(document.getElementById('root-footer'));
 export default function App() {
   return (
-      <HashRouter>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/home" element={<Home />}></Route>
-          <Route path="/contact-us" element={<Contact />}></Route>       
-        </Routes>
-      </HashRouter>
+      <><Header /><HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+        <Route path="/contact-us" element={<Contact />}></Route>
+        <Route path="/rentail" element={<Rentail />}></Route>
+      </Routes>
+    </HashRouter><Footer /></>
   );
 }
-header.render(<Header/>);
+
 root.render(<App/>);
-footer.render(<Footer/>)
