@@ -9,7 +9,7 @@ export class  Home extends React.Component {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./images/home/banner_first.jpg"
+                        src="./images/home/banner_1.jpg"
                         alt="First slide" />
                     <Carousel.Caption>
                         <h3>First slide label</h3>
@@ -19,7 +19,7 @@ export class  Home extends React.Component {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./images/home/banner_second.jpeg"
+                        src="./images/home/banner_2.jpg"
                         alt="Second slide" />
 
                     <Carousel.Caption>
@@ -32,20 +32,20 @@ export class  Home extends React.Component {
                 <Row>
                   <Col className="col-lg-4">                  
                     <img className="rounded-circle home-heading" src="./images/home/heading1.jpg" alt="Generic placeholder image"></img>                   
-                    <h2>Custom Orthotics</h2>
-                    <p>What are Custom made Orthotics? A custom orthotic is a device designed to align the foot and ankle into the most anatomically efficient position and made from an image of each foot with specific added ...</p>
+                    <h2>Mobility</h2>
+                    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
                     <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
                   </Col>
                   <Col className="col-lg-4">
                     <img className="rounded-circle home-heading" src="./images/home/heading2.jpg" alt="Generic placeholder image"></img>
-                    <h2>Compression Stockings</h2>
-                    <p>Compression stockings: They are a specialized hosiery, designed to help prevent the occurrence of, and guard against further progression of venous disorders such as edema, phlebitis and thrombosis. Compression ...</p>
+                    <h2>Health</h2>
+                    <p>Another exciting bit of representative placeholder content. This time, we&ldquo;ve moved on to the second column.</p>
                     <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
                   </Col>
                   <Col className="col-lg-4">
                     <img className="rounded-circle home-heading" src="./images/home/heading3.jpg" alt="Generic placeholder image"></img>
-                    <h2>Symptoms</h2>
-                    <p>Achilles Tendonitis<br></br>1.What is it? Achilles Tendonitis is an inflammation of the common tendon of the gastrocnemius and soleus muscles of the posterior compartment of the leg...</p>
+                    <h2>Rental</h2>
+                    <p>And lastly this, the third column of representative placeholder content.</p>
                     <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
                   </Col>
                 </Row>
