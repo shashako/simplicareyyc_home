@@ -9,23 +9,23 @@ export class  Footer extends React.Component {
                 <Row>
                     <Col md="auto" className="mx-5">
                         <Row className="fs-4 fw-bold">Simpli Care Inc.</Row>                           
-                        <Row className="fs-6">#118 – 4909 17 Ave SE</Row>  
-                        <Row className="fs-6">Calgary, AB</Row> 
-                        <Row className="">Call: 403-455-8222  </Row>  
-                        <Row className="">Text:</Row>                     
-                        <Row className="">Email: hello@simplicareyyc.ca </Row>  
-                        <Row className="">Fax:</Row>             
+                        <Row className="px-2">#118 – 4909 17 Ave SE</Row>  
+                        <Row className="px-2">Calgary, AB</Row> 
+                        <Row className="px-2">Call: 403-455-8222  </Row>  
+                        <Row className="px-2">Text:</Row>                     
+                        <Row className="px-2">Email: hello@simplicareyyc.ca </Row>  
+                        <Row className="px-2">Fax:</Row>             
                     </Col>    
                     <Col className="mx-5"></Col>   
                     <Col className="mx-5"></Col>
                     <Col className="mx-5"></Col>               
                     <Col md="auto" className="mx-5">
                         <Row className="fs-4 fw-bold">Business Hours:</Row>   
-                        <Row className="">Monday: 10:00 AM - 5:00 PM</Row> 
-                        <Row className="">Tuesdays: CLOSED</Row> 
-                        <Row className="">Wednesdays - Saturdays: 10:00 AM - 5:00 PM</Row>
-                        <Row className="">Sunday: CLOSED</Row>
-                        <Row className="">Stat Holiday: CLOSED</Row>                    
+                        <Row className="px-2">Monday: 10:00 AM - 5:00 PM</Row> 
+                        <Row className="px-2">Tuesdays: CLOSED</Row> 
+                        <Row className="px-2">Wednesdays - Saturdays: 10:00 AM - 5:00 PM</Row>
+                        <Row className="px-2">Sunday: CLOSED</Row>
+                        <Row className="px-2">Stat Holiday: CLOSED</Row>                    
                     </Col>
                 </Row>
             </Container>
