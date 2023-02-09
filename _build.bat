@@ -1,4 +1,4 @@
-npm run build
+REM npm run build
 rmdir /Q /S %CD%\docs
 mkdir %CD%\docs
 xcopy /E/Y %CD%\build %CD%\docs
