@@ -5,7 +5,7 @@ export class  Health extends React.Component {
     render() {        
         return (
         <>    
-        <Container>
+        <Container className="lead">
             <Row className="mt-4">                
                 <h2>Orthopedic Supports</h2>
             </Row>

@@ -13,7 +13,7 @@ export class  Contact extends React.Component {
         return (
         <>    
         
-        <Container className="mt-4">           
+        <Container className="mt-4 lead">           
             <Row>
             <Col>
                 <Row>                
