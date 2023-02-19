@@ -6,7 +6,7 @@ export class  Rentail extends React.Component {
         return (
         <>    
         {/* <Container className="d-flex align-items-center flex-column w-50 mt-5"> */}
-        <Container  className="mt-4">
+        <Container className="mt-4">
             <Row>                
                 <h2 className="featurette-heading">Rentail</h2>
             </Row>

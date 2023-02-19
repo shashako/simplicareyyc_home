@@ -13,12 +13,12 @@ export class  Contact extends React.Component {
         return (
         <>    
         
-        <Container className="mt-4">
-            <Row>                
-                <h2 className="featurette-heading">Contact</h2>
-            </Row>
+        <Container className="mt-4">           
             <Row>
             <Col>
+                <Row>                
+                    <h2 className="featurette-heading">Contact</h2>
+                </Row>
                 <Form.Group className="mb-3" controlId="contactName">
                     <Form.Label>Your name</Form.Label>
                     <Form.Control type="text" placeholder="Enter your name" />
@@ -38,9 +38,8 @@ export class  Contact extends React.Component {
                     <Form.Control as="textarea" aria-label="With textarea"/>
                 </Form.Group>
                 <Button variant="Primary">Book an appointment</Button>{' '}            
-            </Col>
-            
-            <Col className="m-4 " sm={7} md={7} height="100%">
+            </Col>            
+            <Col className="mt-4 " sm={7} md={7} height="100%">
                 <Card >            
                 <div dangerouslySetInnerHTML={iframe()} />
                 <Card.Body>                

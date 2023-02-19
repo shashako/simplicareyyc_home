@@ -4,7 +4,7 @@ import { Container, Navbar, Row, Col } from 'react-bootstrap';
 export class  Footer extends React.Component { 
     render() {
         return (
-          <Navbar bg="dark">    
+          <Navbar bg="dark" className="mt-5">    
             <Container className="text-light justify-content-md-center">  
                 <Row>
                     <Col md="auto" className="mx-5">

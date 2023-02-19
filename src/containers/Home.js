@@ -30,22 +30,28 @@ export class  Home extends React.Component {
             </Carousel>
            <Container className = "container marketing">
                 <Row>
-                  <Col className="col-lg-4">                  
+                  <Col className="col-lg-3">                  
                     <img className="rounded-circle home-heading" src="./images/home/heading1.jpg" alt="Generic placeholder image"></img>                   
-                    <h2>Mobility</h2>
-                    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+                    <h2>Mobility aids</h2>
+                    <p>Wheelchars, walkers, and canes can help with walking, balancing, or supporting your loved one’s weight to reduce strain on their muscles and joints.</p>
                     <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
                   </Col>
-                  <Col className="col-lg-4">
+                  <Col className="col-lg-3">
                     <img className="rounded-circle home-heading" src="./images/home/heading2.jpg" alt="Generic placeholder image"></img>
-                    <h2>Health</h2>
-                    <p>Another exciting bit of representative placeholder content. This time, we&ldquo;ve moved on to the second column.</p>
+                    <h2>Toilet and shower aids</h2>
+                    <p>Raised toilet seats, shower chairs, grab bars, and handles </p>
                     <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
                   </Col>
-                  <Col className="col-lg-4">
+                  <Col className="col-lg-3">
                     <img className="rounded-circle home-heading" src="./images/home/heading3.jpg" alt="Generic placeholder image"></img>
-                    <h2>Rental</h2>
-                    <p>And lastly this, the third column of representative placeholder content.</p>
+                    <h2>Orthopedic Supplies</h2>
+                    <p>Supports, braces and guards for the body parts from the waist down: thighs, knees, limbs & ankles.</p>
+                    <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
+                  </Col>
+                  <Col className="col-lg-3">
+                    <img className="rounded-circle home-heading" src="./images/home/heading3.jpg" alt="Generic placeholder image"></img>
+                    <h2>Compression Stockings</h2>
+                    <p>Maintain circulation in the leg veins and reduce leg swelling.</p>
                     <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
                   </Col>
                 </Row>
