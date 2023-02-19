@@ -5,7 +5,14 @@ export class  Rentail extends React.Component {
     render() {        
         return (
         <>    
-        <Container className="d-flex align-items-center flex-column w-50 mt-5">
+        {/* <Container className="d-flex align-items-center flex-column w-50 mt-5"> */}
+        <Container  className="mt-4">
+            <Row>                
+                <h2 className="featurette-heading">Rentail</h2>
+            </Row>
+            <Row>
+                <p>Need to rent wheelchair, walker or roller while traveling in Alberta? Simpli Care provides a mobility aids rental service within the area, please check our quotation below. Please note that one-time cleaning fee after renting is mandatory and only charged once per rental.</p>
+            </Row>
             <Table striped bordered hover size="sm" className="w-50" >
                 <thead>
                     <tr >
@@ -40,10 +47,12 @@ export class  Rentail extends React.Component {
                     </tr>
                 </tbody>
             </Table>
-           
-            <FormLabel> <br></br>Delivery/Pick-up available upon request<br></br>
-Deposits will be refunded upon return of equipment without damage or missing components
-</FormLabel>
+            <Row>
+                <p>Delivery Pick-up available upon request</p>
+            </Row>
+            <Row>
+                <p>Deposits will be refunded upon return of equipment without damage or missing components</p>
+            </Row>           
         </Container> 
        
         </>    

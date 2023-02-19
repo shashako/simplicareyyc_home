@@ -13,9 +13,12 @@ export class  Contact extends React.Component {
         return (
         <>    
         
-        <Container>
+        <Container className="mt-4">
+            <Row>                
+                <h2 className="featurette-heading">Contact</h2>
+            </Row>
             <Row>
-            <Col className="m-4">
+            <Col>
                 <Form.Group className="mb-3" controlId="contactName">
                     <Form.Label>Your name</Form.Label>
                     <Form.Control type="text" placeholder="Enter your name" />
