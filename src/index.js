@@ -9,6 +9,7 @@ import { Footer } from './containers/Footer';
 import React from 'react';
 import { Rentail } from './containers/Rentail';
 import { Mobility } from './containers/Mobility';
+import { Health } from './containers/Health';
 const root = createRoot(document.getElementById('root'));
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/home" element={<Home />}></Route>
         <Route path="/contact-us" element={<Contact />}></Route>
         <Route path="/mobility" element={<Mobility />}></Route>
+        <Route path="/health" element={<Health />}></Route>
         <Route path="/rentail" element={<Rentail />}></Route>
       </Routes>
     </HashRouter><Footer /></>
