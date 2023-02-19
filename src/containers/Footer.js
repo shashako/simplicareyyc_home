@@ -4,6 +4,7 @@ import { Container, Navbar, Row, Col } from 'react-bootstrap';
 export class  Footer extends React.Component { 
     render() {
         return (
+            <>
           <Navbar bg="dark" className="mt-5">    
             <Container className="text-light justify-content-md-center">  
                 <Row>
@@ -27,10 +28,12 @@ export class  Footer extends React.Component {
                         <Row className="px-2">Sunday: CLOSED</Row>
                         <Row className="px-2">Stat Holiday: CLOSED</Row>                    
                     </Col>
-                </Row>
+                </Row>                
             </Container>
       
          </Navbar>
+        
+         </>
         );
     }
 }

@@ -7,11 +7,11 @@ export class  Mobility extends React.Component {
         <>    
         <Container className="mt-4">
             <Row>                
-                <h2 className="featurette-heading">Transport Wheelchairs</h2>
+                <h3>Transport Wheelchairs</h3>
             </Row>
             <Row>
                 <Col className="mx-4">                
-                    <p className="lead">This chair comes equipped with loop-lock handbrakes that are easy to operate and ideal for locking the rear wheels during transfers. It is compact when folded, making it easy to lift into a car or carry up the stairs. Weighs just 37 pounds and is equipped with a comfortable nylon upholstery, full length permanent armrest, and detachable footrests.</p>
+                    <p className="lead"> This chair comes equipped with loop-lock handbrakes that are easy to operate and ideal for locking the rear wheels during transfers. It is compact when folded, making it easy to lift into a car or carry up the stairs. Weighs just 37 pounds and is equipped with a comfortable nylon upholstery, full length permanent armrest, and detachable footrests.</p>
                 </Col>
                 <Col  sm={1} md={1}></Col>
                 <Col sm={4} md={4}>
@@ -20,7 +20,7 @@ export class  Mobility extends React.Component {
                 <Col  sm={1} md={1}></Col>       
             </Row>
             <Row  className="mt-5">
-                <h2 className="featurette-heading">Walking Aids</h2>
+                <h3>Walking Aids</h3>
             </Row>
             <Row className="mt-5" >
                 <Col sm={1} md={1}></Col>
@@ -33,7 +33,7 @@ export class  Mobility extends React.Component {
                 </Col>                
             </Row>
             <Row className="mt-5">
-                <h2 className="featurette-heading">Walking Sticks</h2>
+                <h3>Walking Sticks</h3>
             </Row>
             <Row className="mt-5 mx-4">
                 <img className="featurette-image img-fluid mx-auto" src="./images/mobility/walking_sticks.jpg" alt="Generic placeholder image"></img>  

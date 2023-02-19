@@ -11,9 +11,11 @@ export class  Rentail extends React.Component {
                 <h2 className="featurette-heading">Rentail</h2>
             </Row>
             <Row>
+            <Col className="mx-4">
                 <p>Need to rent wheelchair, walker or roller while traveling in Alberta? Simpli Care provides a mobility aids rental service within the area, please check our quotation below. Please note that one-time cleaning fee after renting is mandatory and only charged once per rental.</p>
+            </Col>
             </Row>
-            <Table striped bordered hover size="sm" className="w-50" >
+            <Table striped bordered hover size="sm" className="w-50 mx-5" >
                 <thead>
                     <tr >
                     <th>Product</th>
@@ -48,11 +50,12 @@ export class  Rentail extends React.Component {
                 </tbody>
             </Table>
             <Row>
-                <p>Delivery Pick-up available upon request</p>
-            </Row>
-            <Row>
-                <p>Deposits will be refunded upon return of equipment without damage or missing components</p>
-            </Row>           
+            <Col className="mx-4">
+                <p>Delivery Pick-up available upon request
+                <br></br>Deposits will be refunded upon return of equipment without damage or missing components
+                </p>                
+            </Col>
+            </Row>         
         </Container> 
        
         </>    

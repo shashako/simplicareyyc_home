@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge, Breadcrumb, Button, Card, Col, Container, Form, Ratio, Row, FormLabel, Table } from "react-bootstrap";
+import { Badge, Breadcrumb, Button, Card, Col, Container, Form, Ratio, Row, FormLabel, Table, Carousel } from "react-bootstrap";
 
 export class  Health extends React.Component { 
     render() {        
@@ -52,7 +52,48 @@ export class  Health extends React.Component {
                         <li>Elevation Bed Wedge</li>                                          
                     </ul>
                 </Col>
-            </Row>         
+            </Row>
+            <Row>
+                <Col sm={1} md={1}></Col>
+                <Col>
+                    <h2 className="featurette-heading">Foot & Muscle Massagers</h2>
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="./images/health/massagers_1.jpg"
+                                alt="First slide" />                            
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="./images/health/massagers_2.jpg"
+                                alt="Second slide" />
+                        </Carousel.Item>                
+                    </Carousel>
+                    
+                </Col>
+                <Col sm={1} md={1}></Col>
+                <Col>
+                    <h2 className="featurette-heading">Elevation Bed Wedge</h2>
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="./images/health/wedge_1.jpg"
+                                alt="First slide" />                            
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="./images/health/wedge_2.jpg"
+                                alt="Second slide" />                            
+                        </Carousel.Item>                
+                    </Carousel>                    
+                </Col>
+                <Col sm={1} md={1}></Col>  
+            </Row>
+                    
         </Container> 
 
         </>    
