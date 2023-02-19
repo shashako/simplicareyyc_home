@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge, Breadcrumb, Button, Card, Col, Container, Form, Ratio, Row, FormLabel, Table } from "react-bootstrap";
+import { Col, Container,  Row, Table } from "react-bootstrap";
 
 export class  Rentail extends React.Component { 
     render() {        
@@ -8,7 +8,7 @@ export class  Rentail extends React.Component {
         {/* <Container className="d-flex align-items-center flex-column w-50 mt-5"> */}
         <Container className="mt-4">
             <Row>                
-                <h2 className="featurette-heading">Rentail</h2>
+                <h2>Rentail</h2>
             </Row>
             <Row>
             <Col className="mx-4">

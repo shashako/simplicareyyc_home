@@ -1,10 +1,10 @@
 import React from "react";
-import { Badge, Breadcrumb, Button, Card, Col, Container, Form, Ratio, Row, FormLabel, Table } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 export class  Mobility extends React.Component { 
     render() {        
         return (
-        <>    
+        <>
         <Container className="mt-4">
             <Row>                
                 <h3>Transport Wheelchairs</h3>

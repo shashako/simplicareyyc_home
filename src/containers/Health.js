@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge, Breadcrumb, Button, Card, Col, Container, Form, Ratio, Row, FormLabel, Table, Carousel } from "react-bootstrap";
+import {  Col, Container,  Row, Carousel } from "react-bootstrap";
 
 export class  Health extends React.Component { 
     render() {        
@@ -7,7 +7,7 @@ export class  Health extends React.Component {
         <>    
         <Container>
             <Row className="mt-4">                
-                <h2 className="featurette-heading">Orthopedic Supports</h2>
+                <h2>Orthopedic Supports</h2>
             </Row>
             <Row>
                 <Col className="mx-4">                
@@ -22,7 +22,7 @@ export class  Health extends React.Component {
                 </Col>                     
             </Row>
             <Row className="mt-4">                
-                <h2 className="featurette-heading">Compression Stockings</h2>
+                <h2>Compression Stockings</h2>
             </Row>
             <Row>
                 <Col className="mx-4">                
@@ -42,21 +42,61 @@ export class  Health extends React.Component {
                 </Col>                     
             </Row>   
             <Row className="mt-4">                
-                <h2 className="featurette-heading">Personal Care</h2>
+                <h2>Personal Care</h2>
             </Row>
             <Row>
                 <Col className="mx-4">                
                     <p>If you are suffering from upper-part muscle pains, try our head, neck and shoulder massagers with heat to relax and relieve sore after a long workday. We promise to bring you comfort and relaxation with our quality products</p>
                     <ul>
-                        <li>Foot & Muscle Massagers</li>
-                        <li>Elevation Bed Wedge</li>                                          
+                        <li>Foot & Muscle Massagers</li>    
                     </ul>
                 </Col>
+            </Row>            
+            <Row>
+                <Col sm={2} md={2}></Col>
+                <Col sm={3} md={3}>
+                <img
+                                className="d-block w-100"
+                                src="./images/health/massagers_1.jpg"
+                                alt="First slide" />  
+                </Col>
+                <Col sm={2} md={2}></Col>
+                <Col sm={3} md={3}>
+                <img
+                                className="d-block w-100"
+                                src="./images/health/massagers_2.jpg"
+                                alt="First slide" />  
+                </Col>
+                <Col sm={2} md={2}></Col>
             </Row>
             <Row>
+            <Col className="mx-4"> 
+                <ul>
+                    <li>Elevation Bed Wedge</li>                                          
+                </ul>
+            </Col>
+            </Row>
+            <Row>
+                <Col sm={2} md={2}></Col>
+                <Col sm={3} md={3}>
+                <img
+                                className="d-block w-100"
+                                src="./images/health/wedge_1.jpg"
+                                alt="First slide" />  
+                </Col>
+                <Col sm={2} md={2}></Col>
+                <Col sm={3} md={3}>
+                <img
+                                className="d-block w-100"
+                                src="./images/health/wedge_2.jpg"
+                                alt="First slide" />  
+                </Col>
+                <Col sm={2} md={2}></Col>
+            </Row>
+            {/* <Row>
                 <Col sm={1} md={1}></Col>
                 <Col>
-                    <h2 className="featurette-heading">Foot & Muscle Massagers</h2>
+                    <h2>Foot & Muscle Massagers</h2>
                     <Carousel>
                         <Carousel.Item>
                             <img
@@ -75,7 +115,7 @@ export class  Health extends React.Component {
                 </Col>
                 <Col sm={1} md={1}></Col>
                 <Col>
-                    <h2 className="featurette-heading">Elevation Bed Wedge</h2>
+                    <h2>Elevation Bed Wedge</h2>
                     <Carousel>
                         <Carousel.Item>
                             <img
@@ -92,7 +132,7 @@ export class  Health extends React.Component {
                     </Carousel>                    
                 </Col>
                 <Col sm={1} md={1}></Col>  
-            </Row>
+            </Row> */}
                     
         </Container> 
 

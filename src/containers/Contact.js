@@ -17,7 +17,7 @@ export class  Contact extends React.Component {
             <Row>
             <Col>
                 <Row>                
-                    <h2 className="featurette-heading">Contact</h2>
+                    <h2>Contact</h2>
                 </Row>
                 <Form.Group className="mb-3" controlId="contactName">
                     <Form.Label>Your name</Form.Label>
