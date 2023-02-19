@@ -21,8 +21,8 @@ export class  Header extends React.Component {
                   </Navbar.Brand>
                   <Nav>
                   <Nav.Link href="./#/home" className=' mx-3' bsPrefix="navbar menu-header">HOME</Nav.Link>
-                  {/* <Nav.Link href="./#/mobility" className=' mx-3'><a className="menu-header">MOBILITY</a></Nav.Link> */}
-                  <NavDropdown
+                  <Nav.Link href="./#/mobility" className=' mx-3'><a className="menu-header">MOBILITY</a></Nav.Link>
+                  {/* <NavDropdown
                     title="MOBILITY"
                     id={`offcanvasNavbarDropdown-expand-sm`} 
                     bsPrefix="navbar menu-header"
@@ -30,7 +30,7 @@ export class  Header extends React.Component {
                   >
                     <NavDropdown.Item href="#action3">Wheelchairs</NavDropdown.Item>
                     <NavDropdown.Item href="#action4">Walking Aids</NavDropdown.Item>                      
-                  </NavDropdown>
+                  </NavDropdown> */}
                   <NavDropdown
                     title="HEALTH"
                     id={`offcanvasNavbarDropdown-expand-sm`} 

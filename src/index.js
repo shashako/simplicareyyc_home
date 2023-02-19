@@ -8,6 +8,7 @@ import { Header } from './containers/Header';
 import { Footer } from './containers/Footer';
 import React from 'react';
 import { Rentail } from './containers/Rentail';
+import { Mobility } from './containers/Mobility';
 const root = createRoot(document.getElementById('root'));
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/contact-us" element={<Contact />}></Route>
+        <Route path="/mobility" element={<Mobility />}></Route>
         <Route path="/rentail" element={<Rentail />}></Route>
       </Routes>
     </HashRouter><Footer /></>

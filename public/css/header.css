@@ -6,3 +6,7 @@
 .menu-header:hover {
   color: rgb(6, 191, 142);
 }
+.menu-header-off-canvas {
+  background-color: rgb(6, 191, 142);
+}
+
