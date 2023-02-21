@@ -20,8 +20,8 @@ export class  Header extends React.Component {
                     <img src="./images/logo/logo.png" width="140"/>
                   </Navbar.Brand>
                   <Nav>
-                  <Nav.Link href="./#/home" className=' mx-3' bsPrefix="navbar menu-header">HOME</Nav.Link>
-                  <Nav.Link href="./#/mobility" className=' mx-3'bsPrefix="navbar menu-header">MOBILITY</Nav.Link>
+                  <Nav.Link href="./#/home" className='mx-3' bsPrefix="navbar menu-header">HOME</Nav.Link>
+                  <Nav.Link href="./#/mobility" className='mx-3' bsPrefix="navbar menu-header">MOBILITY</Nav.Link>
                   {/* <NavDropdown
                     title="MOBILITY"
                     id={`offcanvasNavbarDropdown-expand-sm`} 
