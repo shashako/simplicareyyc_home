@@ -11,47 +11,58 @@ function iframe() {
 export class  Contact extends React.Component { 
     render() {        
         return (
-        <>    
-        
-        <Container className="mt-4 lead">           
-            <Row>
-            <Col>
-                <Row>                
-                    <h2>Contact</h2>
+        <>            
+            {/* <Container className="mt-4 lead">           
+                <Row>
+                <Col>
+                    <Row>                
+                        <h2>Contact</h2>
+                    </Row>
+                    <Form.Group className="mb-3" controlId="contactName">
+                        <Form.Label>Your name</Form.Label>
+                        <Form.Control type="text" placeholder="Enter your name" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="contactEmail">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Text className="text-muted"> We&lsquo;ll never share your email with anyone else.                   
+                        </Form.Text>
+                    </Form.Group> 
+                    <Form.Group className="mb-3" controlId="contactPhone">
+                        <Form.Label>Your phone number</Form.Label>
+                        <Form.Control type="text" placeholder="Enter your phone number" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="contactMessage">
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control as="textarea" aria-label="With textarea"/>
+                    </Form.Group>
+                    <Button variant="Primary">Book an appointment</Button>{' '}            
+                </Col>            
+                <Col className="mt-4 " sm={7} md={7} height="100%">
+                    <Card >            
+                    <div dangerouslySetInnerHTML={iframe()} />
+                    <Card.Body>                
+                        <Card.Title>Simpli Care Inc.</Card.Title>
+                        <Card.Text>#118 – 4909 17 Ave SE<br/>Calgary, AB<br/>Call: 403-455-8222</Card.Text>                                
+                    </Card.Body>
+                    </Card>
+                </Col>
                 </Row>
-                <Form.Group className="mb-3" controlId="contactName">
-                    <Form.Label>Your name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter your name" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="contactEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                    <Form.Text className="text-muted"> We&lsquo;ll never share your email with anyone else.                   
-                    </Form.Text>
-                </Form.Group> 
-                <Form.Group className="mb-3" controlId="contactPhone">
-                    <Form.Label>Your phone number</Form.Label>
-                    <Form.Control type="text" placeholder="Enter your phone number" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="contactMessage">
-                    <Form.Label>Message</Form.Label>
-                    <Form.Control as="textarea" aria-label="With textarea"/>
-                </Form.Group>
-                <Button variant="Primary">Book an appointment</Button>{' '}            
-            </Col>            
-            <Col className="mt-4 " sm={7} md={7} height="100%">
-                <Card >            
-                <div dangerouslySetInnerHTML={iframe()} />
-                <Card.Body>                
-                    <Card.Title>Simpli Care Inc.</Card.Title>
-                    <Card.Text>#118 – 4909 17 Ave SE<br/>Calgary, AB<br/>Call: 403-455-8222</Card.Text>                                
-                </Card.Body>
-                </Card>
-            </Col>
+            </Container>  */}
+            <Container className="mt-4 lead">
+            <Row>
+                <Col sm={2} md={2}></Col>
+                <Col sm={8} md={8}>
+                <h2>Contact</h2>
+                <p   className="fs-4"> Please make your appointment request at <b>403-455-8222</b>.<br/> </p>              
+                
+                <div dangerouslySetInnerHTML={iframe()} />   
+                
+                </Col>
+                <Col sm={2} md={2}></Col>
             </Row>
-                 
+            </Container>
        
-        </Container> 
        
         </>    
         )
