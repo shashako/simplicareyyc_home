@@ -4,7 +4,7 @@ import { Badge, Breadcrumb, Button, Card, Col, Container, Form, Ratio, Row, Form
 function iframe() {
     return {
         __html: `
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1054.8328287617917!2d-114.06542828735995!3d51.0377713637037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5371701b5a4557bd%3A0xd02de894b9ed4a94!2s118%2017%20Ave%20SE%2C%20Calgary%2C%20AB%20T2S%200A1%2C%20Canada!5e0!3m2!1sen!2s!4v1675677510992!5m2!1sen!2s" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.8137438269328!2d-114.065038!3d51.038060699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537171c6d4f9106d%3A0x3617365802a8c56e!2sSimpli%20Care!5e0!3m2!1sen!2sca!4v1676990532215!5m2!1sen!2sca" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     `
     }
 }

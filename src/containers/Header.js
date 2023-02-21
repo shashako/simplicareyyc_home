@@ -6,7 +6,7 @@ export class  Header extends React.Component {
       return (
         <>          
           <Navbar bg="dark" variant="dark" expand="sm">
-            <Container  bg="dark" variant="dark">
+            <Container bg="dark" variant="dark">
 
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-sm`}/>
               <Navbar.Offcanvas                            
@@ -16,12 +16,12 @@ export class  Header extends React.Component {
                   <Offcanvas.Title></Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body className="justify-content-center">
-                  <Navbar.Brand>
+                  <Navbar.Brand className='mx-5'>
                     <img src="./images/logo/logo.png" width="140"/>
                   </Navbar.Brand>
                   <Nav>
                   <Nav.Link href="./#/home" className=' mx-3' bsPrefix="navbar menu-header">HOME</Nav.Link>
-                  <Nav.Link href="./#/mobility" className=' mx-3'><a className="menu-header">MOBILITY</a></Nav.Link>
+                  <Nav.Link href="./#/mobility" className=' mx-3'bsPrefix="navbar menu-header">MOBILITY</Nav.Link>
                   {/* <NavDropdown
                     title="MOBILITY"
                     id={`offcanvasNavbarDropdown-expand-sm`} 

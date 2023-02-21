@@ -42,7 +42,7 @@ export class  Home extends React.Component {
                 </Col>
               </Row>
               <Row>
-                  <Col className="mb-4 mx-2 box-shadow">                  
+                  <Col className="card mb-4 mx-2 box-shadow">                  
                     <img className="card-img-top mt-4" src="./images/home/heading_1.jpg" alt="Generic placeholder image"></img>
                     <div className="card-body">                  
                       <h4>Mobility aids</h4>
@@ -50,7 +50,7 @@ export class  Home extends React.Component {
                     <p><Button className="btn-secondary" href="./#/mobility" role="button">View details &raquo;</Button></p>
                     </div> 
                   </Col>
-                  <Col className=" mb-4 mx-2 box-shadow">                  
+                  <Col className="card mb-4 mx-2 box-shadow">                  
                     <img className="card-img-top  mt-4" src="./images/home/heading_2.jpg" alt="Generic placeholder image"></img>
                     <div className="card-body">                  
                       <h4>Toilet and shower aids</h4>
@@ -58,7 +58,7 @@ export class  Home extends React.Component {
                     <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
                     </div> 
                   </Col>
-                  <Col className=" mb-4 mx-2 box-shadow">                  
+                  <Col className="card mb-4 mx-2 box-shadow">                  
                     <img className="card-img-top mt-4" src="./images/home/heading_3.jpg" alt="Generic placeholder image"></img>
                     <div className="card-body">                  
                       <h4>Orthopedic Supplies:</h4>
@@ -66,7 +66,7 @@ export class  Home extends React.Component {
                     <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
                     </div> 
                   </Col>
-                  <Col className=" mb-4 mx-2 box-shadow">                  
+                  <Col className="card mb-4 mx-2 box-shadow">                  
                     <img className="card-img-top mt-4" src="./images/home/heading_4.jpg" alt="Generic placeholder image"></img>
                     <div className="card-body">                  
                       <h4>Compression Stockings</h4>
