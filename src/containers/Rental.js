@@ -1,14 +1,14 @@
 import React from "react";
 import { Col, Container,  Row, Table } from "react-bootstrap";
 
-export class  Rentail extends React.Component { 
+export class  Rental extends React.Component { 
     render() {        
         return (
         <>    
         {/* <Container className="d-flex align-items-center flex-column w-50 mt-5"> */}
         <Container className="mt-4 lead">
             <Row>                
-                <h2>Rentail</h2>
+                <h2>Rental</h2>
             </Row>
             <Row>
             <Col className="mx-4">
@@ -34,14 +34,14 @@ export class  Rentail extends React.Component {
                     <td>$100</td>
                     </tr>
                     <tr>
-                    <td>Walker</td>
+                    <td>Transport Wheelchair</td>
                     <td>$10</td>
                     <td>$40</td>
                     <td>$10</td>
                     <td>$100</td>
                     </tr>
                     <tr>
-                    <td>Roller</td>
+                    <td>Rollator Waker</td>
                     <td>$10</td>
                     <td>$40</td>
                     <td>$10</td>

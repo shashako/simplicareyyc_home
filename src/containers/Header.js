@@ -42,7 +42,7 @@ export class  Header extends React.Component {
                     <NavDropdown.Item href="#action4">Personal Care</NavDropdown.Item>                     
                   </NavDropdown> */}
                   <Nav.Link href="./#/health" className='mx-3' bsPrefix="navbar menu-header">HEALTH</Nav.Link>
-                  <Nav.Link href="./#/rentail" className='mx-3' bsPrefix="navbar menu-header">RENTAL</Nav.Link>
+                  <Nav.Link href="./#/rental" className='mx-3' bsPrefix="navbar menu-header">RENTAL</Nav.Link>
                   <Nav.Link href="./#/contact-us" className='mx-3' bsPrefix="navbar menu-header">CONTACT US</Nav.Link>
                   </Nav>                  
                 </Offcanvas.Body>

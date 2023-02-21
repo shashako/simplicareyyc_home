@@ -12,21 +12,24 @@ export class  Footer extends React.Component {
                         <Row className="fs-4 fw-bold">Simpli Care Inc.</Row>                           
                         <Row className="px-2">#118 – 4909 17 Ave SE</Row>  
                         <Row className="px-2">Calgary, AB</Row> 
-                        <Row className="px-2">Call: 403-455-8222  </Row>  
-                        <Row className="px-2">Text:</Row>                     
+                        <Row className="px-2">Call: 403-455-8222</Row>  
+                        <Row className="px-2">Text: 587-585-7155</Row>                     
                         <Row className="px-2">Email: hello@simplicareyyc.ca </Row>  
-                        <Row className="px-2">Fax:</Row>             
+                        <Row className="px-2">Fax: 888-296-7978</Row>             
                     </Col>    
                     <Col className="mx-5"></Col>   
                     <Col className="mx-5"></Col>
                     <Col className="mx-5"></Col>               
                     <Col md="auto" className="mx-5">
                         <Row className="fs-4 fw-bold">Business Hours:</Row>   
-                        <Row className="px-2">Monday: 10:00 AM - 5:00 PM</Row> 
-                        <Row className="px-2">Tuesdays: CLOSED</Row> 
-                        <Row className="px-2">Wednesdays - Saturdays: 10:00 AM - 5:00 PM</Row>
-                        <Row className="px-2">Sunday: CLOSED</Row>
-                        <Row className="px-2">Stat Holiday: CLOSED</Row>                    
+                        <Row className="px-2">Mon: 9:30-5</Row> 
+                        <Row className="px-2">Tue: 9:30-5</Row> 
+                        <Row className="px-2">Wed: 9:30-5</Row>
+                        <Row className="px-2">Thu: CLOSED</Row>
+                        <Row className="px-2">Fri: 9:30-5</Row>  
+                        <Row className="px-2">Sat: 10-5</Row>  
+                        <Row className="px-2">Sun: CLOSED</Row>
+                        <Row className="px-2">Statutory Holidays: CLOSED</Row>                
                     </Col>
                 </Row>                
             </Container>

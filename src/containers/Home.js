@@ -12,8 +12,8 @@ export class  Home extends React.Component {
                         src="./images/home/banner_1.jpg"
                         alt="First slide" />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        {/* <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -23,8 +23,8 @@ export class  Home extends React.Component {
                         alt="Second slide" />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        {/* <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>                
             </Carousel>
@@ -41,8 +41,8 @@ export class  Home extends React.Component {
                     </ul>                
                 </Col>
               </Row>
-                <Row>
-                  <Col className="card mb-4 mx-2 box-shadow">                  
+              <Row>
+                  <Col className="mb-4 mx-2 box-shadow">                  
                     <img className="card-img-top mt-4" src="./images/home/heading_1.jpg" alt="Generic placeholder image"></img>
                     <div className="card-body">                  
                       <h4>Mobility aids</h4>
@@ -50,7 +50,7 @@ export class  Home extends React.Component {
                     <p><Button className="btn-secondary" href="./#/mobility" role="button">View details &raquo;</Button></p>
                     </div> 
                   </Col>
-                  <Col className="card mb-4 mx-2 box-shadow">                  
+                  <Col className=" mb-4 mx-2 box-shadow">                  
                     <img className="card-img-top  mt-4" src="./images/home/heading_2.jpg" alt="Generic placeholder image"></img>
                     <div className="card-body">                  
                       <h4>Toilet and shower aids</h4>
@@ -58,7 +58,7 @@ export class  Home extends React.Component {
                     <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
                     </div> 
                   </Col>
-                  <Col className="card mb-4 mx-2 box-shadow">                  
+                  <Col className=" mb-4 mx-2 box-shadow">                  
                     <img className="card-img-top mt-4" src="./images/home/heading_3.jpg" alt="Generic placeholder image"></img>
                     <div className="card-body">                  
                       <h4>Orthopedic Supplies:</h4>
@@ -66,7 +66,7 @@ export class  Home extends React.Component {
                     <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
                     </div> 
                   </Col>
-                  <Col className="card mb-4 mx-2 box-shadow">                  
+                  <Col className=" mb-4 mx-2 box-shadow">                  
                     <img className="card-img-top mt-4" src="./images/home/heading_4.jpg" alt="Generic placeholder image"></img>
                     <div className="card-body">                  
                       <h4>Compression Stockings</h4>
@@ -77,7 +77,7 @@ export class  Home extends React.Component {
                 </Row>
                 <Row>
                 <p>Inquire about products and we&lsquo;ll be happy to provide more information, recommendation and assistance about products that will help you attain a better quality of living. </p>
-                </Row>
+              </Row>
            </Container>          
            </>
         );
