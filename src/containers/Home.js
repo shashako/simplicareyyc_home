@@ -32,7 +32,7 @@ export class  Home extends React.Component {
            <Container className = "container marketing">
               <Row>
                     <Col>
-                    <p>Simpli Care provides a variety of assistive products with professional consultation to improve your health and wellness:</p>
+                    <p className='fs-4'>Simpli Care provides a variety of assistive products with professional consultation to improve your health and wellness:</p>
                     <ul>
                             <li><b>Mobility aids:</b> Wheelchars, walkers, and canes can help with walking, balancing, or supporting your loved one&lsquo;s weight to reduce strain on their muscles and joints.</li>
                             <li><b>Toilet and shower aids:</b> Raised toilet seats, shower chairs, grab bars, and handles</li>
@@ -55,7 +55,7 @@ export class  Home extends React.Component {
                     <div className="card-body">                  
                       <h4>Toilet and shower aids</h4>
                       <p>Raised toilet seats, shower chairs, grab bars, and handles</p>
-                    <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
+                    <p><Button className="btn-secondary" href="./#/mobility" role="button">View details &raquo;</Button></p>
                     </div> 
                   </Col>
                   <Col className="card mb-4 mx-2 box-shadow">                  
@@ -63,7 +63,7 @@ export class  Home extends React.Component {
                     <div className="card-body">                  
                       <h4>Orthopedic Supplies:</h4>
                       <p>Supports, braces and guards for the body parts from the waist down: thighs, knees, limbs & ankles</p>
-                    <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
+                    <p><Button className="btn-secondary" href="./#/health" role="button">View details &raquo;</Button></p>
                     </div> 
                   </Col>
                   <Col className="card mb-4 mx-2 box-shadow">                  
@@ -71,12 +71,12 @@ export class  Home extends React.Component {
                     <div className="card-body">                  
                       <h4>Compression Stockings</h4>
                       <p>Maintain circulation in the leg veins and reduce leg swelling</p>
-                    <p><Button className="btn-secondary" href="#" role="button">View details &raquo;</Button></p>
+                    <p><Button className="btn-secondary" href="./#/health" role="button">View details &raquo;</Button></p>
                     </div> 
                   </Col>
                 </Row>
                 <Row>
-                <p>Inquire about products and we&lsquo;ll be happy to provide more information, recommendation and assistance about products that will help you attain a better quality of living. </p>
+                <p className='fs-5'>Inquire about products and we&lsquo;ll be happy to provide more information, recommendation and assistance about products that will help you attain a better quality of living. </p>
               </Row>
            </Container>          
            </>
