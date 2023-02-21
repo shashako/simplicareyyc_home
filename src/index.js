@@ -1,6 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import {Home} from "./containers/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Contact } from './containers/Contact';

@@ -22,7 +22,7 @@ export class  Mobility extends React.Component {
             <Row className="mt-5">
                 <h3>Wheelchairs</h3>
             </Row>
-            <Row className="mt-5" >
+            <Row className="" >
                 <Col sm={1} md={1}></Col>
                 <Col sm={4} md={4}>
                     <img className="featurette-image img-fluid mx-auto" src="./images/mobility/wheelchairs.jpg" alt="Generic placeholder image"></img>  
@@ -31,10 +31,10 @@ export class  Mobility extends React.Component {
                 <Col  sm={6} md={6}>
                 <p className="lead">
                     <ul>
-                        <li>16&quot; x 16&quot; seat supports up to 300 pounds</li>
-                        <li>Strong frame with a hammertone finish delivers reliable support and lasting durability</li>
-                        <li>Swing-back, desk-length arms and swing-away leg rests make it easier for users to get in and out of the chair</li>
-                        <li>Solid tires and a hemi-height adjustable dual axle ensure a smooth, customised ride</li>
+                        <li>16&quot; x 16&quot; seat supports up to 300 pounds.</li>
+                        <li>Strong frame with a hammertone finish delivers reliable support and lasting durability.</li>
+                        <li>Swing-back, desk-length arms and swing-away leg rests make it easier for users to get in and out of the chair.</li>
+                        <li>Solid tires and a hemi-height adjustable dual axle ensure a smooth, customised ride.</li>
                     </ul>
                 </p>
                 </Col>                
@@ -42,7 +42,7 @@ export class  Mobility extends React.Component {
             <Row className="mt-5">
                 <h3>Walking Aids</h3>
             </Row>
-            <Row className="mt-5" >                
+            <Row className="" >                
                 <Col sm={6} md={6} className="mx-4">
                 <p className="lead">If you’re seeking a safe, convenient aid to improve your daily mobility, this Rollator can be the ideal solution. This Four Wheel Walker Rollator provides reliable support with maximum comfort, and is ideal for active lifestyles while traveling over uneven or outdoor terrain. The Four Wheel Walker features a built-in padded seat with backrest for convenient resting, a removable basket for carrying personal items, and non-marking wheels that won’t leave scuffs. The handle height is easily adjustable to support optimal posture while walking, and the deluxe loop locks ensure advanced safety. Transportation and storage of the Four Wheel Walker Rollator is simple with a backrest that can be folded.</p>
                 </Col> 

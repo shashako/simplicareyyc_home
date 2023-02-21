@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Navbar, Nav, Offcanvas, } from 'react-bootstrap';
+import { Container, Navbar, Nav, } from 'react-bootstrap';
 
 export class  Header extends React.Component { 
     render() {

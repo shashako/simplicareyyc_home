@@ -1,5 +1,5 @@
 import React from "react";
-import {  Col, Container,  Row, Carousel } from "react-bootstrap";
+import {  Col, Container,  Row } from "react-bootstrap";
 
 export class  Health extends React.Component { 
     render() {        
@@ -46,7 +46,7 @@ export class  Health extends React.Component {
             </Row>
             <Row>
                 <Col className="mx-4">                
-                    <p>If you are suffering from upper-part muscle pains, try our head, neck and shoulder massagers with heat to relax and relieve sore after a long workday. We promise to bring you comfort and relaxation with our quality products</p>
+                    <p>If you are suffering from upper-part muscle pains, try our head, neck and shoulder massagers with heat to relax and relieve sore after a long workday. We promise to bring you comfort and relaxation with our quality products:</p>
                     <ul>
                         <li>Foot & Muscle Massagers</li>    
                     </ul>

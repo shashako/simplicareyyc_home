@@ -51,8 +51,8 @@ export class  Rental extends React.Component {
             </Table>
             <Row>
             <Col className="mx-4">
-                <p>Delivery Pick-up available upon request
-                <br></br>Deposits will be refunded upon return of equipment without damage or missing components
+                <p>Delivery Pick-up available upon request.
+                <br></br>Deposits will be refunded upon return of equipment without damage or missing components.
                 </p>                
             </Col>
             </Row>         
