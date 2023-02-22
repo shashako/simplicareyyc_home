@@ -3,6 +3,25 @@ import {  Container, Carousel, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export class  Home extends React.Component { 
+    constructor(props) {
+      super(props);
+      this.state = { width: 0, height: 0 };
+      this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+      this.state.small = 768;
+      this.state.medium = 992;
+    }
+    componentDidMount() {
+      this.updateWindowDimensions();
+      window.addEventListener('resize', this.updateWindowDimensions);
+    }
+    
+    componentWillUnmount() {
+      window.removeEventListener('resize', this.updateWindowDimensions);
+    }
+    
+    updateWindowDimensions() {
+      this.setState({ width: window.innerWidth, height: window.innerHeight });
+    }
     render() {     
       const heading1 = <Col className="card mb-4 mx-2 box-shadow home-box">                  
                           <img className="card-img-top mt-4" src="./images/home/heading_1.jpg" alt="Generic placeholder image"></img>
@@ -34,20 +53,30 @@ export class  Home extends React.Component {
                           <h4>Compression Stockings</h4>
                           <p>Maintain circulation in the leg veins and reduce leg swelling</p>                      
                           <p><a type="button" href="./#/health" className="btn btn-outline-success">View details &raquo;</a></p>
-                        </div>
-                        
+                        </div>                        
                       </Col>
-        return (
+      console.log(this.state.width)
+      let heading 
+      if(this.state.width > this.state.medium) {
+        heading = <Row>{heading1}{heading2}{heading3}{heading4}</Row>        
+      } else if(this.state.width > this.state.small)  {
+        heading = <><Row>{heading1}{heading2}</Row><Row>{heading3}{heading4}</Row></>
+      } else {
+        heading = <>{heading1}{heading2}{heading3}{heading4}</>
+      }
+      return (
         <>
-          <Carousel>
-                <Carousel.Item>
-                    <img className="d-block w-100" src="./images/home/banner_1.jpg"/>                    
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img className="d-block w-100" src="./images/home/banner_2.jpg"/>
-                </Carousel.Item>                
-          </Carousel>
-
+          {
+            this.state.width > this.state.small &&
+            <Carousel>
+                  <Carousel.Item>
+                      <img className="d-block w-100" src="./images/home/banner_1.jpg"/>                    
+                  </Carousel.Item>
+                  <Carousel.Item>
+                      <img className="d-block w-100" src="./images/home/banner_2.jpg"/>
+                  </Carousel.Item>                
+            </Carousel>
+          }
           <Container className = "container">
             <Row>
               <Col>
@@ -60,12 +89,7 @@ export class  Home extends React.Component {
                 </ul>                
               </Col>
             </Row>
-            <Row>
-              {heading1}
-              {heading2}
-              {heading3} 
-              {heading4}
-            </Row>
+            {heading}
             <Row>                
                 <p className='fs-5'>Inquire about products and we&lsquo;ll be happy to provide more information, recommendation and assistance about products that will help you attain a better quality of living. </p>
             </Row>              
