@@ -8,10 +8,11 @@ export class  Header extends React.Component {
           <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
             <Container >
               <Navbar.Toggle aria-controls="responsive-navbar-nav " />
-              <Navbar.Collapse id="responsive-navbar-nav"  className='justify-content-center expand'>
-                <Navbar.Brand className='mx-5'>
+              <Navbar.Brand className='ml-5'>
                       <img src="./images/logo/logo.png" width="140"/>
                 </Navbar.Brand>
+              <Navbar.Collapse id="responsive-navbar-nav"  className='justify-content-center expand'>
+                
                 <Nav>
                     <Nav.Link href="./#/home" className='mx-3' bsPrefix="navbar menu-header">HOME</Nav.Link>
                     <Nav.Link href="./#/mobility" className='mx-3' bsPrefix="navbar menu-header">MOBILITY</Nav.Link>                 

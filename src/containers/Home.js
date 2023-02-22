@@ -42,7 +42,7 @@ export class  Home extends React.Component {
       const heading3 = <Col className="card mb-4 mx-2 box-shadow home-box">                  
                         <img className="card-img-top mt-4" src="./images/home/heading_3.jpg" alt="Generic placeholder image"></img>
                         <div className="card-body">                  
-                          <h4>Orthopedic Supplies:</h4>
+                          <h4>Orthopedic Supplies</h4>
                           <p>Supports, braces and guards for the body parts from the waist down: thighs, knees, limbs & ankles.</p>
                           <p><a type="button" href="./#/health" className="btn btn-outline-success">View details &raquo;</a></p>
                         </div> 
@@ -62,7 +62,7 @@ export class  Home extends React.Component {
       } else if(this.state.width > this.state.small)  {
         heading = <><Row>{heading1}{heading2}</Row><Row>{heading3}{heading4}</Row></>
       } else {
-        heading = <>{heading1}{heading2}{heading3}{heading4}</>
+        heading = <><Row>{heading1}</Row><Row>{heading2}</Row><Row>{heading3}</Row><Row>{heading4}</Row></>
       }
       return (
         <>
